@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #USER {
+        margin: 20px 0;
+        padding-left: 480px;
+
+        }
+        #ADMIN {
+            height: 300px;
+            width: 300px; 
+        }
+
+        
+        #box{
+            width: 300px;       
+            height: 50px;       
+            padding: 10px 20px; 
+            margin-top: 100px;
+            font-size: 20px;   
+            border: 1px solid #ccc; 
+            border-radius: 5px; 
+        }
+
+    </style>
+</head>
+<body bgcolor="pink" style="color: black">
+    <center>
+        <h1>GPS Based toll system📡</h1>
+        <p>
+            Enable you to engage the easy way of transport
+        </p>
+    
+    <hr>
+    <table>
+        <tr>
+
+        <td id="User"><input type="button" id="box" value="USER"></td>
+        <td  id="Admin"><input type="button" id="box" value="ADMIN"></td>
+
+        </tr>
+    </table>
+    </center>
+    <script>
+        document.getElementById('User').addEventListener('click',function(){
+            window.location.href='frontpg.html'
+        })
+        document.getElementById('Admin').addEventListener('click',function(){
+            window.location.href='login.html'
+        })
+    </script>
+
+    
+</body>
+</html>
